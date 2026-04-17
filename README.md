@@ -18,6 +18,13 @@ This project predicts the likelihood of heart disease using machine learning tec
 * Random Forest
 * XGBoost
 
+## 🔄 Project Workflow
+1. Data Cleaning (handled missing values)
+2. Feature Encoding (one-hot encoding)
+3. Train-Test Split (stratified sampling)
+4. Model Training (LR, RF, XGBoost)
+5. Model Evaluation (accuracy + cross-validation)
+
 ## 🔧 Steps Performed
 
 * Data Cleaning (handled missing values using mean and mode)
@@ -44,5 +51,10 @@ The model was improved by reducing overfitting using stratified sampling and hyp
    jupyter notebook heart_disease.ipynb
 
 ---
+## 📊 Results
+- Logistic Regression Accuracy: ~82%
+- Random Forest Accuracy: ~85%
+- XGBoost Accuracy: ~85%
+- Cross Validation Accuracy: ~82.5%
 
 ⭐ This project demonstrates a complete machine learning pipeline from preprocessing to evaluation.
